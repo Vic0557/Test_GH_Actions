@@ -1,0 +1,10 @@
+name: Test Wokflow
+on: workflow_dispatch
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test message print one
+        run: echo "This is first test print message."
+      - name: test message print two
+        run: echo "This is 2nd test print message."
